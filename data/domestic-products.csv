@@ -1,0 +1,17 @@
+﻿id,name,vendor,url,price,pack,proof,stock,vat,grade,notes,checked
+P01,BNO085 Adafruit #4754,로봇사이언스,https://robotscience.kr/goods/view?no=15723,53800,1,상품 페이지 국내재고 16개 표시; 매장픽업 제공,16,VAT 포함,A,국내 수량만 주문. 부족분 해외 조달/통관 전환을 수락하지 말 것.,2026-09-13
+P02,VL53L1X Pololu #3415,로봇사이언스,https://robotscience.kr/goods/view?no=19458,41300,1,상품 페이지 국내재고 4개 표시; 매장픽업 제공,4,VAT 포함,A,통합 필요 2 + 예비 1 = 3개. 페이지 수량은 예약·실시간 확정이 아님.,2026-09-13
+P03,PCA9548 I2C 멀티플렉서 Adafruit #5626,로봇사이언스,https://robotscience.kr/goods/view?no=20126,16700,1,상품 페이지 국내재고 9개 표시,9,VAT 포함,A,신규 ToF 보완안. 하위 JST-SH 4핀 케이블은 별도. 회로·소프트웨어 변경 후 채택.,2026-09-13
+P04,SLAMTEC RPLIDAR C1 / P-T410,에듀이노,https://eduino.kr/product/detail.html?product_no=9805,112500,1,국내배송·전국 택배·배송 1~2일 안내,,표시가 / VAT 포함 여부 재확인,B,재고 개수 비공개. 정품 USB 어댑터/센서 하네스 동봉 수량과 국내 보유분 출고를 확인.,2026-09-13
+P05,400접점 브레드보드 HCM1203,제노몰,https://www.jenomall.com/goods/goods_view.php?goodsNo=1000012080,900,1,국내 매장 방문수령 및 평일 14시 이전 출고 안내; 품절 예외,,표시가 / VAT 포함 여부 재확인,B,실물 30열 본체와 각 25접점 전원 레일의 도통을 검사. 차량 최종 배선용 아님.,2026-09-13
+P06,M-F 점퍼 20cm / 40가닥 HCM2701,제노몰,https://www.jenomall.com/goods/goods_view.php?goodsNo=1000012459,900,40,국내 방문수령·평일 출고 안내; 재고 개수 비공개,,표시가 / VAT 포함 여부 재확인,B,1묶음은 40가닥. 20cm는 책상 위 배치용; 카트 센서까지 길이 보장 안 됨.,2026-09-13
+P07,M-M 점퍼 20cm / 40가닥 HCM2702,제노몰,https://www.jenomall.com/goods/goods_view.php?goodsNo=1000012462,1000,40,국내 방문수령·평일 출고 안내; 재고 개수 비공개,,표시가 / VAT 포함 여부 재확인,B,원본 내부 점퍼 9개. 묶음 구매 후 필요한 개수만 분리.,2026-09-13
+P08,F-F 점퍼 20cm / 40가닥 HCM2703,제노몰,https://www.jenomall.com/goods/goods_view.php?goodsNo=1000012463,900,40,국내 방문수령·평일 출고 안내; 재고 개수 비공개,,표시가 / VAT 포함 여부 재확인,B,최종 잠금형 차량 하네스의 대체품으로 사용하지 않음.,2026-09-13
+P09,1kΩ 0.25W 5% 저항 10개,에듀이노,https://eduino.kr/product/detail.html?product_no=349,330,10,국내배송·택배·1~2일 안내,,표시가 / VAT 포함 여부 재확인,B,R1/R2용 축형 리드 저항. 10개 1봉.,2026-09-13
+P10,220Ω 0.25W 5% 저항 10개,에듀이노,https://eduino.kr/product/detail.html?product_no=348,330,10,국내배송·택배·1~2일 안내,,표시가 / VAT 포함 여부 재확인,B,조향 옵션 R3/R4. 10개 1봉.,2026-09-13
+P11,10kΩ 0.25W 5% 저항 10개,에듀이노,https://eduino.kr/product/detail.html?product_no=588,330,10,국내배송·택배·1~2일 안내,,표시가 / VAT 포함 여부 재확인,B,조향 옵션 R5/R6. 10개 1봉.,2026-09-13
+P12,USB 2.0 C타입 1m 데이터+충전 E-86,에듀이노,https://eduino.kr/product/detail.html?product_no=10002,3300,1,국내배송·택배·1~2일 안내,,표시가 / VAT 포함 여부 재확인,B,주문 전 호스트 쪽 A 수단자 확인. UWB와 태그용; SBC 3A 급전선으로 일괄 승인하지 않음.,2026-09-13
+P13,Micro USB 데이터 케이블 50cm,에듀이노,https://eduino.kr/product/detail.html?product_no=97,1000,1,국내배송·택배 안내,,표시가 / VAT 포함 여부 재확인,B,ESP32-DevKitC V4 micro-B와 호스트 A 확인. 충전 전용 제품 제외.,2026-09-13
+P14,6mm 스파이럴 케이블 랩 2m,에듀이노,https://eduino.kr/product/detail.html?product_no=5881,3300,2,국내배송·택배 안내,,표시가 / VAT 포함 여부 재확인,B,2m당 표시가. 지름 6mm는 센서 소선 묶음용 후보; 실제 번들 지름 확인.,2026-09-13
+P15,브레드보드 배선용 단선 22AWG / 1m,에듀이노,https://eduino.kr/product/detail.html?product_no=257,1100,1,국내배송·택배 안내,,표시가 / VAT 포함 여부 재확인,B,벤치 저전류용 추가 재료. 색상 지정. 배터리·모터 및 진동하는 차량 전력선에 사용 금지.,2026-09-13
+P16,마이크로 SD 카드 리더기,에듀이노,https://eduino.kr/product/detail.html?product_no=9423,990,1,국내배송·택배 안내,,표시가 / VAT 포함 여부 재확인,B,벤치 공구. SD 메모리카드가 포함된 것으로 계산하지 않음.,2026-09-13

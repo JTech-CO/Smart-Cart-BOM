@@ -1,0 +1,47 @@
+﻿ref,id,name,spec,source_qty,source_status,notes,url
+BT1,E01,LiFePO4 배터리,24V class / 108Ah,1,candidate,"기존 도면의 24V 108Ah를 유지. 실제 모델·BMS 정격 미확정. 8S라면 공칭 25.6V, 충전 상한은 제조사 확인.",https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+F0,F01,메인 퓨즈,60A *,1,candidate,배터리 + 가까이 설치. 60A는 검토값. DC 전압·차단용량·전선 보호 협조 확정 전 통전 금지.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+S0,E03,메인 차단 스위치,DC disconnect,1,candidate,전류 정격과 DC 부하 차단 능력 확인. 배터리 -는 외부 공통 0V 버스로 연결.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+X24,E04,배터리 전원 분배,24V class,1,candidate,절연 커버가 있는 양극 전용 버스. 음극 버스와 물리적으로 분리.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+X0,E05,공통 0V 분배,0V / star return,1,candidate,비절연 DC-DC 기준. 모터·서보 귀환은 이 버스로 직접 연결. 브레드보드를 대전류 귀환 경로로 사용하지 않음.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+K1,E06,구동 전원 접촉기,12V coil / DC main contacts,1,candidate,12V 코일과 별도 NO 보조접점이 필요. DC 주접점 정격은 최종 선정. E-stop은 구동전원 차단이며 제동 보장은 아님.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+F1,F02,좌측 모터 입력 퓨즈,25A *,1,candidate,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+F2,F02,우측 모터 입력 퓨즈,25A *,1,candidate,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+MDL,D02,좌측 모터 드라이버,SMC G2 24v19 / UART,1,conditional,"Pololu G2 SMC 24v19를 조건부 기준으로 사용. 정상 권장 상한 34V. 19A 연속값은 조건부이며 스톨·열·회생은 별도 검증. 포함 단자대는 제조사 15~16A 안내가 있어 25A 보호분기에는 그대로 승인하지 않음. UART timeout, safe-start 설정 필요.",https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+ML,D01,좌측 감속모터,24V / 250W,1,candidate,24V 250W 브러시드 DC 감속모터 가정. 극성은 바퀴를 띄운 상태에서 확인. 스톨 전류 미확정.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+MDR,D02,우측 모터 드라이버,SMC G2 24v19 / UART,1,conditional,"Pololu G2 SMC 24v19를 조건부 기준으로 사용. 정상 권장 상한 34V. 19A 연속값은 조건부이며 스톨·열·회생은 별도 검증. 포함 단자대는 제조사 15~16A 안내가 있어 25A 보호분기에는 그대로 승인하지 않음. UART timeout, safe-start 설정 필요.",https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+MR,D01,우측 감속모터,24V / 250W,1,candidate,24V 250W 브러시드 DC 감속모터 가정. 극성은 바퀴를 띄운 상태에서 확인. 스톨 전류 미확정.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+F3,F03,12V 컨버터 입력 퓨즈,15A *,1,candidate,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+F4,F04,5V 컨버터 입력 퓨즈,5A *,1,candidate,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+DC1,E10,조향 전원 컨버터,24V class → 12V / 20A,1,candidate,"입력은 배터리 완충 및 과도전압을 허용해야 함. 12V 20A 연속 출력, 방열 및 동시 서보 스톨 확인. 비절연형 기준.",https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+DC2,E11,제어 전원 컨버터,24V class → 5V / 10A,1,candidate,입력 범위·출력 과전압 보호·연속 출력 사양 확인. 5V는 부하 단자에서 측정. 비절연형 기준.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+F5,F05,좌측 서보 퓨즈,10A *,1,candidate,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+SVL,D03,좌측 조향 서보,RDS51150 / 12V,1,conditional,RDS51150 12V형 조건부. 실제 선 색·순서·피드백 선 유무·5V PWM 허용 여부 확인. 기존 저장소는 자유 캐스터 차동 구동이므로 조향 링크를 확정하기 전 장착 구동 금지.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+F6,F05,우측 서보 퓨즈,10A *,1,candidate,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+SVR,D03,우측 조향 서보,RDS51150 / 12V,1,conditional,RDS51150 12V형 조건부. 실제 선 색·순서·피드백 선 유무·5V PWM 허용 여부 확인. 기존 저장소는 자유 캐스터 차동 구동이므로 조향 링크를 확정하기 전 장착 구동 금지.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+F7,F06,Orange Pi 출력 퓨즈,4A *,1,candidate,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+F8,F06,USB 허브 출력 퓨즈,4A *,1,candidate,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+F9,F07,접촉기 코일 퓨즈,1A *,1,candidate,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+F10,F08,브레드보드 5V 분기,0.5A *,1,candidate,5V는 AHCT 버퍼에만 공급. 서보·SBC 전원은 브레드보드를 통과하지 않음.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+S1,E08,비상정지 버튼,NC / twist reset,1,candidate,래칭 NC 접점. 해제만으로 재출발하지 않으며 S2를 다시 눌러야 접촉기가 유지됨.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+S2,E09,수동 재무장 버튼,momentary NO,1,candidate,K1 NO 보조접점 13-14와 병렬. 이것은 단일 채널 기능 회로이며 인증된 안전 회로가 아님.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+Z1,E07,코일 서지 억제 모듈,K1 지정품,1,candidate,코일 전압·클램프·접촉기 해제시간에 맞는 제조사 지정 억제기. 임의 플라이백 다이오드로 대체 금지.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+OP1,C01,Orange Pi 4 Pro,5V Type-C / high-level control,1,reference,전원용 Type-C 5V 입력 사용. 호스트 USB는 외부 전원 허브의 upstream에 연결. 보드의 USB 포트 전류 한도로 전체 센서를 급전하지 않음.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+H1,C03,외부 전원 USB 허브,4 downstream / powered USB,1,candidate,"5V 외부 입력, 포트별 전류 제한, upstream VBUS 역급전 방지 제품 필요. USB 케이블은 완성품 사용. USB D±를 브레드보드에 배선하지 않음.",https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+U1,C02,ESP32-DevKitC V4,WROOM-32E / USB power only,1,reference,ESP32-WROOM-32E 기준. USB만 급전하고 5V 헤더는 미연결. GPIO16/17은 WROVER에 재사용 불가. 외부 보드로 배치하여 브레드보드 접점을 가리지 않음.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+A1,C05,LiDAR USB 어댑터,SLAMTEC C1 adapter,1,reference,"C1용 정품 USB-UART 어댑터와 지정 케이블 사용. TX는 센서 RX, RX는 센서 TX로 교차.",https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+LD1,C04,2D LiDAR,SLAMTEC RPLIDAR C1,1,reference,RPLIDAR C1. 5V 전원과 3.3V UART를 구분. 센서 입력 4.8~5.2V 범위 검증.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+UWL,C06,좌측 UWB 베이스,Ai-Thinker BU04-Kit,1,reference,BU04-Kit의 USB(거리 데이터) Type-C 포트 사용. TTL/AT 포트와 혼동하지 않음. bare BU04 및 별도 Follow Package는 동일 핀맵으로 간주하지 않음. 2베이스+1태그 동시 측정 펌웨어는 별도 설정.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+UWR,C06,우측 UWB 베이스,Ai-Thinker BU04-Kit,1,reference,BU04-Kit의 USB(거리 데이터) Type-C 포트 사용. TTL/AT 포트와 혼동하지 않음. bare BU04 및 별도 Follow Package는 동일 핀맵으로 간주하지 않음. 2베이스+1태그 동시 측정 펌웨어는 별도 설정.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+TAG1,C07,사용자 휴대 태그,UWB tag / independent power,1,conditional,독립 배터리로 동작. 카트 배터리와 유선 연결하지 않음. 베이스와 태그의 역할 및 ID는 펌웨어에서 설정.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+IMU1,C08,관성 센서,BNO085 / SPI,1,reference,Adafruit BNO085 #4754 기준. P0/P1 모두 HIGH로 SPI 설정. 3Vo는 출력이므로 외부 전원과 병렬 연결하지 않음. INT/RST 포함.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+TOF1,C09,근거리 거리 센서,VL53L1X / I2C 0x29,1,reference,"Pololu VL53L1X carrier #3415 기준. XSHUT, GPIO1, VDD는 미연결. 보드의 I2C 풀업 사용. XSHUT을 추가할 때는 2.8V 측 제약 확인.",https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+R1,B02,R1 1kΩ,1kΩ / 0.25W,1,reference,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+R2,B02,R2 1kΩ,1kΩ / 0.25W,1,reference,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+R3,B03,R3 220Ω,220Ω / 0.25W,1,reference,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+R4,B03,R4 220Ω,220Ω / 0.25W,1,reference,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+R5,B04,R5 10kΩ,10kΩ / 0.25W,1,reference,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+R6,B04,R6 10kΩ,10kΩ / 0.25W,1,reference,,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+U2,B05,서보 PWM 레벨 버퍼,SN74AHCT125N / DIP-14,1,reference,"SN74AHCT125N DIP-14. 5V 전원, 3.3V TTL 입력. 미사용 출력 8/11번은 NC, 미사용 입력은 GND, 해당 OE는 5V. 핀1 표시 방향 확인.",https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+C1,B06,버퍼 디커플링,100nF / ≥16V,1,reference,U2 14-7번 전원 가까이.,https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv
+BB1,B01,400 tie-point 브레드보드,3.3V sensors + 5V buffer ONLY,1,reference,"300개 본체 접점(30열 × 10행)과 100개 전원 레일 접점(25개 × 4줄). 레일은 각 줄 왼쪽부터 별도로 1~25번. a-e / f-j는 독립 5접점 스트립. 상부 +레일은 3.3V, 하부 +레일은 5V. 두 -레일만 공통. 모든 레일은 실물 도통 확인. 센서·로직 실험용이며 주행 차량에는 납땜/잠금 커넥터로 이전.",https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv

@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-13",
+  "result": "PASS",
+  "automated_checks": 34,
+  "checks": [
+    {
+      "name": "Unique master IDs",
+      "pass": true,
+      "details": 121
+    },
+    {
+      "name": "46 source references mapped once",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Every source mapping refers to master",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Unknown quantities remain null",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "No missing linked product records",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "No overseas procurement domains",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Only product URLs, no search/category links",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Valid nonnegative quantity inputs",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "No shortage for all active numerically defined rows",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "ToF integrated2 spare1 delivery3",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "UWB bases2 usertag1",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Full fuse count11",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Full holder count11",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Base fuse count8",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Base holder count8",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Logic internal/external wires",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Original breadboard equation84",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "1k resistor10pack",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "M-F80 from two40packs",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Zero installation with40spares retained",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Partial quoted sum",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Workbook8 sheets",
+      "pass": true,
+      "details": [
+        "안내·설정",
+        "구매BOM",
+        "사양·근거",
+        "국내구매링크",
+        "수량대조",
+        "원본46대조",
+        "발주보류",
+        "출처·검증"
+      ]
+    },
+    {
+      "name": "No exported formula error cells",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "No unsupported HYPERLINK output",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "Procurement calculations exported as formulas",
+      "pass": true,
+      "details": 733
+    },
+    {
+      "name": "Cached summary price334530",
+      "pass": true,
+      "details": "334530"
+    },
+    {
+      "name": "Steering defaultOFF",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "PDF20pages",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "All master IDs present in PDF",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "PDF clickable source/purchase links",
+      "pass": true,
+      "details": 58
+    },
+    {
+      "name": "PDF text within page safety margins",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "All master IDs in Markdown",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "All16 purchase URLs in MD",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "No font files distributed",
+      "pass": true,
+      "details": ""
+    }
+  ],
+  "visual_review": "Workbook summary/BOM slices and all PDF pages rendered; full-resolution representative tables checked.",
+  "not_verified": [
+    "Live inventory allocation/reservation",
+    "Seller confirmation of domestic dispatch",
+    "Electrical/mechanical design approval",
+    "Cable lengths and fastener counts",
+    "Actual ordering",
+    "Excel desktop application UI; exported OOXML and formula caches inspected"
+  ]
+}

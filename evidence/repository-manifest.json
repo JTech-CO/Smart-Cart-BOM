@@ -1,0 +1,30 @@
+[
+  {
+    "path": "data/BOM.csv",
+    "git_blob_sha1": "022860dd75370a7a2f05a5a5305dc1bc6b3b5950",
+    "sha256": "5c93ab5b77517f27a4094ef7c019ff16dad5eeac94992e8ff1e316ec32b69425",
+    "size": 7310,
+    "source": "https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/BOM.csv"
+  },
+  {
+    "path": "data/design.json",
+    "git_blob_sha1": "30043a9c04fe6f62fc82139591e0b5cc0c3bf098",
+    "sha256": "e7ff8eacdf60dce854a5deb89c4b2cdb0469f03e395a74f1ec652ec8942b98f1",
+    "size": 44072,
+    "source": "https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/design.json"
+  },
+  {
+    "path": "data/breadboard-contacts.csv",
+    "git_blob_sha1": "752292e94adc6d0f940d02543798550365dec3c0",
+    "sha256": "5177bbd823a4360b27a03894b737f88937b6e21560c0c792ce472409f3819ce1",
+    "size": 1557,
+    "source": "https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/breadboard-contacts.csv"
+  },
+  {
+    "path": "data/terminal-netlist.csv",
+    "git_blob_sha1": "82aa0c9d7bdfab0655e8031834284ea720d7a012",
+    "sha256": "8c685273214bf30f18bd1ae00de74a91d63b9903f3174e47281888b810790ce8",
+    "size": 7697,
+    "source": "https://github.com/JTech-CO/Smart-Cart-Wiring/blob/3ac3f1d793caba6494d27df6f0b9ba2eee8606d5/data/terminal-netlist.csv"
+  }
+]
